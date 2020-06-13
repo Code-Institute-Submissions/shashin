@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*----------------------------------- Navbar */
+
+.navbar {
+    font-family: "Comfortaa", sans-serif;
+    background: rgba(142, 239, 220, 0.4);
+}
+
+.navbar-nav {
+    text-align: center;
+    margin: auto;
+    margin-right: 0px;
+}
+
+/*----------------------------------- Alert-bar */
+
+.alert {
+    margin-bottom: 0;
+    text-align: center;
+}
+

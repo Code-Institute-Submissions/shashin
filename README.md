@@ -70,6 +70,8 @@ provide its name, a link to its official site and a short sentence of why it was
 * gitpod
 * https://ianlunn.github.io/Hover/
 * https://cdnjs.com/
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+* slack
 
 ## Testing
 
