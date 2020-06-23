@@ -45,7 +45,7 @@
         </nav>
     </header>
 
-    <!--Home page-->
+    <!-- Home page -->
 
     <section id="home">
         <div class="container-fluid hero-image">
@@ -70,7 +70,7 @@
         </div>
     </section>
 
-    <!--About page-->
+    <!-- About page -->
 
     <section id="about">
         <div class="container-fluid about">
@@ -85,28 +85,103 @@
                             photographer feels that day, how the day sets and how the object or person you're photographing reacts.          
                         </p> 
                 </div> 
-                <div class="col col-sm-4 about-photo">
-                   
+                <div class="col col-sm-5">
+                    <img class="img-fluid" src="assets/images/lonneke.JPG" alt="lonneke">
                 </div>
-                <div class="col col-sm-5 equipment-photo">
-
+                <div class="col col-sm-5">
+                    <img class="img-fluid" src="assets/images/camera.JPG" alt="camera">
                 </div>
-                <div class="col col-sm-6">
+                <div class="col col-sm-7">
                     <h2>Equipment</h2>
                        <p><strong>Warning, Tech talk!</strong><br>
-                       So some photographers among us might like to know what camera I'm using and for the not so experienced once among us, 
+                       So some photographers among us might like to know what camera I'm using and for the not so experienced ones among us, 
                        I'm going to rock your world. You see I only have one lens and a relatively small body. The Camera I use is an 
                        <strong>Olympus OM-D E-M10 Mark III</strong> the only lens (for now) I use with it is a <strong>m.zuiko 14-150 mm pro lens.</strong>
                        This lens is considered as an all round lens, meaning you can shoot pretty much anything with it. From macro to landscape and everything
-                       in between.
+                       in between. The quality is amazing and you don't need to know all the ins and outs of a manual camera yet. With this camera you can do both. 
+                       So for you people out there trying to get the hang of photography and wanting to shoot raw too, but you're not comfortable enough with it yet. 
+                       I can't recommend this camera enough.
                        
                        Some info about micro-four third</p>
                 </div>
             </div>   
         </div>
     </section>
+
+    <!-- Photograph section -->
+
     <section id="photographs">
-    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2>Photographs</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-around row-cols-2 row-cols-md-3 row-cols-lg-4">
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/believe.JPG" alt="believe" id="1" data-toggle="modal" data-target="#myModal" >
+                    <h4>Believe</h4>
+               </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/boat.JPG" alt="boat" id="2" data-toggle="modal" data-target="#myModal">
+                    <h4>Boat</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/flower.JPG" alt="flower" id="3" data-toggle="modal" data-target="#myModal">
+                    <h4>Flower</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/cat.JPG" alt="cat" id="4" data-toggle="modal" data-target="#myModal"> 
+                    <h4>Cat</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/color.JPG" alt="color" id="5" data-toggle="modal" data-target="#myModal"> 
+                    <h4>Color</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/family.JPG" alt="family" id="6" data-toggle="modal" data-target="#myModal">
+                    <h4>Family</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/fisherman.JPG" alt="fisherman" id="7" data-toggle="modal" data-target="#myModal">
+                    <h4>Fisherman</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/tradition.JPG" alt="tradition" id="8" data-toggle="modal" data-target="#myModal">
+                    <h4>Tradition</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/swan.JPG" alt="swan" id="9" data-toggle="modal" data-target="#myModal"> 
+                    <h4>Swan</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/festival.JPG" alt="festival" id="10" data-toggle="modal" data-target="#myModal">
+                    <h4>Festival</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/the-gate.JPG" alt="the-gate" id="11" data-toggle="modal" data-target="#myModal">
+                    <h4>The Gate</h4>
+                </div>
+                <div class="col-sm-3 photo">
+                    <img class="img-fluid img-hover" src="assets/images/car.JPG" alt="car" id="12" data-toggle="modal" data-target="#myModal"> 
+                    <h4>Car</h4>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal content-->
+
+                    <div tabindex="-1" class="modal fade show" id="myModal" role="dialog" style="display: none" aria-hidden="true" >
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-body">
+                                <img class="img-fluid img-responsive">
+                            </div>
+                        </div>
+                    </div>
+        <!--End of modal content-->
+
     </section>
     <section id="purchase">
     
@@ -118,11 +193,23 @@
         <div class="space"></div>
     </footer>
 
-<!--Navbar necessities-->
+<!--Navbar & alertbar necessities-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+<!--Modal javascript-->
+
+    <script>
+    $(document).ready(function () {
+        $('img').on('click', function () {
+            var image = $(this).attr('src');
+            $('#myModal').on('show.bs.modal', function () {
+                $(".img-responsive").attr("src", image);
+            });
+        });
+    });</script>
 
 </body>
 </html>

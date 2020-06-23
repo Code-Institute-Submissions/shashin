@@ -4,11 +4,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
-h1, h2, h3,
+h1, h2,
 h4, h5, h6 {
     font-family: "Comfortaa", sans-serif;
+    margin-bottom: 30px;
 }
 
 /*----------------------------------- Navbar */
@@ -25,7 +27,6 @@ header {
 }
 
 .navbar-nav {
-    text-align: center;
     margin: auto;
     margin-right: 0px;
 }
@@ -34,7 +35,6 @@ header {
 
 .alert {
     margin-bottom: 0;
-    text-align: center;
     background: rgb(199, 199, 245);
 }
 
@@ -44,7 +44,7 @@ header {
     height: 800px;
     border-left: 15px solid #fff;
     border-right: 15px solid #fff;
-    background: url("../images/hero-image.JPG");
+    background: url("../images/hero-image.JPG")no-repeat top center;
     background-size: cover;
 
 }
@@ -55,7 +55,6 @@ header {
     float: right;
     margin-top: 550px;
     margin-right: 20px;
-    text-align: center;
 }
 
 .introduction {
@@ -68,45 +67,30 @@ header {
     background: rgb(199, 199, 245);
 }
 
-.about-photo {
-    background: url("../images/lonneke.JPG")no-repeat center center; 
-    background-size: cover;
-    border: 15px solid rgb(199, 199, 245);
-    border-radius: 5rem;
-}  
-
-.equipment-photo {
-    background: url("../images/camera.JPG")no-repeat center center;
-    background-size: cover;
-    border: 15px solid rgb(199, 199, 245);
-    border-radius: 5rem;
-}
-
 .col {
     position: static;
-    padding: 40px;
-    height: 500px;
+    padding: 50px;
 } 
 
 /*----------------------------------- Photographs */
 
+.photo {
+    position: static;
+}
 
+.img-fluid {
+    border-radius: 1.5rem;
+    margin-bottom: 20px;
+}
 
+.img-hover:hover { 
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 
+/*--Modal*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.space {
-    height: 500px;
+.img-responsive {
+    border-radius: 0;
 }
