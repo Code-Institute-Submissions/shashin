@@ -72,7 +72,8 @@ provide its name, a link to its official site and a short sentence of why it was
 * https://cdnjs.com/
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
 * slack
-* https://stackoverflow.com/questions/33838977/how-to-use-bootstrap-modal-on-multiple-images-on-same-page-on-image-click
+* https://stackoverflow.com/questions/33838977/how-to-use-bootstrap-modal-on-multiple-images-on-same-page-on-image-click for the multiple image modal
+* https://www.websitepolicies.com/?utm_source=newsletter&utm_medium=email&utm_campaign=new-user&utm_content=welcome&utm_term=websitepolicies.com for the privacy policy
 
 ## Testing
 
