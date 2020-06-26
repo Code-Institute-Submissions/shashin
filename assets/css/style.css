@@ -13,6 +13,10 @@ h4, h5, h6 {
     margin-bottom: 30px;
 }
 
+hr {
+    visibility: hidden;
+}
+
 /*----------------------------------- Navbar */
 
 header {
@@ -93,4 +97,41 @@ header {
 
 .img-responsive {
     border-radius: 0;
+}
+
+/*----------------------------------- Purchase */
+
+.purchase {
+    background-color: rgb(199, 199, 245);
+}
+
+.custom-select{
+    border-radius: 1rem;
+}
+
+.form {
+    padding-top: 50px;
+}
+
+input {
+    border-radius: .25rem;
+    width: 90%;
+}
+
+.selection {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.button {
+    width: 50%;
+    height: 40px;
+    border-radius: 2rem;
+    background-color: rgb(199, 199, 245);
+    border: 2px solid rgb(131, 131, 246);
+    font-family: "Comfortaa", sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(131, 131, 246);
 }

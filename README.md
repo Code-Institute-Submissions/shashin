@@ -1,4 +1,4 @@
-# Lon's Photo-Shop 
+# 
 
 This project is a assignment of the Full stack development course I am following at CodeInstitute to show my skills with HTML5 and CSS3 so far. 
 
