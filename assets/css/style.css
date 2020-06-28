@@ -134,6 +134,7 @@ header {
 
 .button:hover {
     background-color: rgb(131, 131, 246);
+    color: #fff;
 }
 
 .privacy {
@@ -149,4 +150,22 @@ header {
 
 .policy {
     text-align: left; 
+}
+
+/*----------------------------------- Contact */
+
+.social-media {
+    border: 1px solid #000;
+    border-radius: 2rem;
+}
+
+.social-media i{
+    font-size: 50px;
+    color: rgb(199, 199, 245);
+    padding: 10px;
+}
+
+.social-media i:hover {
+    color: rgb(131, 131, 246);
+    transition: all .35s ease-in-out;
 }
