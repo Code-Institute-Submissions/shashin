@@ -152,20 +152,24 @@ header {
     text-align: left; 
 }
 
-/*----------------------------------- Contact */
+/*----------------------------------- Footer */
 
-.social-media {
-    border: 1px solid #000;
-    border-radius: 2rem;
+.footer {
+    background-color: rgb(199, 199, 245);
+}
+
+.copyright{
+    font-family: "Comfortaa", sans-serif;
+    padding-top: 0;
 }
 
 .social-media i{
     font-size: 50px;
-    color: rgb(199, 199, 245);
+    color: rgb(131, 131, 246);
     padding: 10px;
 }
 
 .social-media i:hover {
-    color: rgb(131, 131, 246);
+    color: #000;
     transition: all .35s ease-in-out;
 }
