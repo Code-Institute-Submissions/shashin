@@ -138,8 +138,8 @@ header {
 }
 
 .privacy {
+    color: #000;
     text-transform: uppercase;
-    border-bottom: 1px solid #000;
 }
 
 .privacy:hover {
@@ -148,8 +148,11 @@ header {
     color: rgb(131, 131, 246);
 }
 
-.policy {
-    text-align: left; 
+/*----------------------------------- Privacy page */
+
+.privacy-policy {
+    text-align: left;
+    padding-top: 60px;
 }
 
 /*----------------------------------- Footer */
@@ -172,4 +175,10 @@ header {
 .social-media i:hover {
     color: #000;
     transition: all .35s ease-in-out;
+}
+
+
+.privacy-policy {
+    text-align: left;
+    padding-top: 60px;
 }
