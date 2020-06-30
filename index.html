@@ -58,13 +58,13 @@
             <div class="row">
                 <div class="col">
                     <h2>Home</h2>
-                        <p>
-                            Welcome to One Way Photo, a small but humble gallery where I showcase photographs that captures the pure tranquillity within 
-                            pieces. 
-                            This rather small showcase is for you to enjoy whether you want to just have a look or want to have a unique piece for yourself.
-                            The collection mainly focusses on Travel photography, with it I want to show that if you focus and look closely there is a lot of 
-                            beauty and peace still left in the world, but you have to pay attention. So get your one way ticket and travel with me.                     
-                        </p> 
+                    <p>
+                        Welcome to One Way Photo, a small but humble gallery where I showcase photographs that captures the pure tranquillity within 
+                        pieces. 
+                        This rather small showcase is for you to enjoy whether you want to just have a look or want to have a unique piece for yourself.
+                        The collection mainly focusses on Travel photography, with it I want to show that if you focus and look closely there is a lot of 
+                        beauty and peace still left in the world, but you have to pay attention. So get your one way ticket and travel with me.                     
+                    </p> 
                 </div>  
             </div>  
         </div>
@@ -341,11 +341,12 @@
         </div>
 
         <!--modal content-->
+
         <div class="modal" id="privacyModal" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
+                        <h5 class="modal-title">Privacy Policy</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -523,27 +524,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
-<!--Modal photographs-->
-
-    <script>
-    $(document).ready(function () {
-        $('img').on('click', function () {
-            var image = $(this).attr('src');
-            $('#myModal').on('show.bs.modal', function () {
-                $(".img-responsive").attr("src", image);
-            });
-        });
-    });</script>
-
-<!--Modal for privacy policy-->
-
-    <script>
-        $('#myModal').on('shown.bs.modal', function () {
-            $('#myInput').trigger('focus')
-        })
-    </script>
-
 </body>
 </html>
 
