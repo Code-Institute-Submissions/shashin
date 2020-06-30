@@ -22,11 +22,12 @@ hr {
 header {
     position: fixed;
     width: 100%;
+    z-index: +1;
 }
 
 .navbar {
     font-family: "Comfortaa", sans-serif;
-    background: rgba(199, 199, 245, 0.8);
+    background: rgba(199, 199, 245, 0.9);
     border-radius: .25rem;
 }
 
@@ -93,12 +94,6 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-/*--Modal*/
-
-.img-responsive {
-    border-radius: 0;
-}
-
 /*----------------------------------- Purchase */
 
 .purchase {
@@ -155,6 +150,16 @@ header {
     padding-top: 60px;
 }
 
+/*----------------------------------- Contact section */
+
+.insta {
+    border: 1px solid #000;
+}
+
+.insta:hover {
+    opacity: 0.8;
+}
+
 /*----------------------------------- Footer */
 
 .footer {
@@ -176,7 +181,6 @@ header {
     color: #000;
     transition: all .35s ease-in-out;
 }
-
 
 .privacy-policy {
     text-align: left;
