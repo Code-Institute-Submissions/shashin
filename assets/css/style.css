@@ -51,6 +51,7 @@ header {
     border-right: 15px solid #fff;
     background: url("../images/hero-image.JPG")no-repeat top center;
     background-size: cover;
+    padding: 0;
 
 }
 
@@ -58,8 +59,8 @@ header {
     color: #fff;
     width: 400px;
     float: right;
-    margin-top: 550px;
-    margin-right: 20px;
+    margin-top: 500px;
+    padding: 20px;
 }
 
 .introduction {
@@ -73,15 +74,10 @@ header {
 }
 
 .col {
-    position: static;
-    padding: 50px;
+    padding: 40px;
 } 
 
 /*----------------------------------- Photographs */
-
-.photo {
-    position: static;
-}
 
 .img-fluid {
     border-radius: 1.5rem;
@@ -89,9 +85,18 @@ header {
 }
 
 .img-hover:hover { 
-    opacity: 0.5;
+    opacity: 0.8;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.photo {
+    padding: 15px;
+}
+
+.photo2 {
+    display: inline-block;
 }
 
 /*----------------------------------- Purchase */
@@ -119,7 +124,7 @@ header {
 }
 
 .button {
-    width: 50%;
+    width: 60%;
     height: 40px;
     border-radius: 2rem;
     background-color: rgb(199, 199, 245);
@@ -154,6 +159,7 @@ header {
 
 .insta {
     border: 1px solid #000;
+
 }
 
 .insta:hover {
