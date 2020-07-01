@@ -115,7 +115,7 @@ header {
 
 .form, input {
     border-radius: .25rem;
-    width: 90%;
+    width: 100%;
 }
 
 .selection {
