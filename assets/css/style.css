@@ -52,7 +52,6 @@ header {
     background: url("../images/hero-image.JPG")no-repeat top center;
     background-size: cover;
     padding: 0;
-
 }
 
 .cover-text {
@@ -63,25 +62,43 @@ header {
     padding: 20px;
 }
 
-.introduction {
-    text-align: center;
-}
-
 /*----------------------------------- About */
 
 .about {
     background: rgb(199, 199, 245);
 }
 
+.about-me {
+    padding-top: 3rem;
+}
+
+.photo {
+    padding-top: 2rem;
+}
+
 .col {
-    padding: 40px;
+    padding: 40px 15px 40px 15px;
 } 
+
+/*---Hidden image on larger screens */
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+    .hidden-img { 
+        display: block; 
+    }  
+}
+@media screen and (min-width: 991px) {
+    .hidden-img { 
+        display: none; 
+    }   
+}
 
 /*----------------------------------- Photographs */
 
 .img-fluid {
     border-radius: 1.5rem;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .img-hover:hover { 
@@ -89,14 +106,6 @@ header {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
-}
-
-.photo {
-    padding: 15px;
-}
-
-.photo2 {
-    display: inline-block;
 }
 
 /*----------------------------------- Purchase */
@@ -159,7 +168,7 @@ header {
 
 .insta {
     border: 1px solid #000;
-
+    margin-top: 0;
 }
 
 .insta:hover {
@@ -175,6 +184,11 @@ header {
 .copyright{
     font-family: "Comfortaa", sans-serif;
     padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.social-media {
+    padding-bottom: 10px;
 }
 
 .social-media i{
