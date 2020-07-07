@@ -17,6 +17,13 @@ hr {
     visibility: hidden;
 }
 
+/*----------------------------------- Alert-bar */
+
+.alert {
+    margin-bottom: 0;
+    background: rgb(199, 199, 245);
+}
+
 /*----------------------------------- Navbar */
 
 header {
@@ -27,6 +34,7 @@ header {
 
 .navbar {
     font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
     background: rgba(199, 199, 245, 0.9);
     border-radius: .25rem;
 }
@@ -34,13 +42,6 @@ header {
 .navbar-nav {
     margin: auto;
     margin-right: 0px;
-}
-
-/*----------------------------------- Alert-bar */
-
-.alert {
-    margin-bottom: 0;
-    background: rgb(199, 199, 245);
 }
 
 /*----------------------------------- Home */
@@ -77,12 +78,12 @@ header {
 }
 
 .col {
-    padding: 40px 15px 40px 15px;
+    padding: 50px 15px 40px 15px;
 } 
 
-/*---Hidden image on larger screens */
+/* Hidden image on larger screens */
 
-@media screen and (min-width: 0px) and (max-width: 990px) {
+@media screen and (max-width: 990px) {
     .hidden-img { 
         display: block; 
     }  
@@ -105,7 +106,6 @@ header {
     opacity: 0.8;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
 }
 
 /*----------------------------------- Purchase */
@@ -166,6 +166,10 @@ header {
 
 /*----------------------------------- Contact section */
 
+.message {
+    padding: 0;
+}
+
 .insta {
     border: 1px solid #000;
     margin-top: 0;
@@ -183,12 +187,8 @@ header {
 
 .copyright{
     font-family: "Comfortaa", sans-serif;
-    padding-top: 0;
-    padding-bottom: 10px;
-}
-
-.social-media {
-    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding: 26px;
 }
 
 .social-media i{
@@ -201,6 +201,20 @@ header {
     color: #000;
     transition: all .35s ease-in-out;
 }
+
+/* Pushing the copyright and social media links to the sides on a larger screen */
+
+@media screen and (min-width: 767px)  {
+    .social-media {
+    text-align: right;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+}
+
+/*----------------------------------- Privacy page */
 
 .privacy-policy {
     text-align: left;
