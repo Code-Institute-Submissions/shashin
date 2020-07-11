@@ -33,7 +33,7 @@ to know me and my work even more.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used in this project are different shades of purple to make sure it doesn't interfere with the many photographs presented on the website.
+        -   The main colours used in this project are different shades of purple (rgb(199, 199, 245) & rgb(131, 131, 246)) to make sure it doesn't interfere with the many photographs presented on the website.
     -   #### Typography
         -   The Comfortaa font is used throughout the whole website for headings and the cover text to give a smooth but informal look to the website. 
         -   The Roboto font is used throughout the whole website for all the paragraphs because it's a common used font. So it's easy to read for the users.
@@ -46,11 +46,33 @@ to know me and my work even more.
 
     -   [See all Wireframes here](assets/mockups/mockups-ms1.pdf)
 
+    -   All wireframes were made with [Balsamiq](https://balsamiq.com/)
+
 ## Features
 
 -   All features are responsive on all device sizes
 
+    -   Navigation/menu bar 
+        * Allows users to go to certain parts of the website easily by clicking on the specific section in the navbar.
+    -   Alert/sale bar 
+        * Allows users to know if certain deals or discounts are going on so that they are more willing to buy something at that specific moment.
+    -   Social media links 
+        * Allows users to go to the person's social media platforms so that they can see more and/or come into contact, by clicking on the links in the footer or the instagram post in the contact section.
+    -   Privacy policy 
+        * Allows users to know what happens with the information they fill in so that they know it's save to do so, by clicking on the privacy policy which opens up a separate page.
+    -   Message form 
+        * Allows users to come into direct contact with me, by filling out the form.
+    -   Purchase form 
+        * Allows users to purchase photographs that they liked, by selecting the photo and size. Additionally they have to fill out their pesonal information.
+    -   About section 
+        * Allows users to get more information about the person and equipment behind the photos, by reading the about section. 
+
 -   Interactive elements
+
+    -   The headings and navbar links are all made interactive with [Hover.css](https://ianlunn.github.io/Hover/) for playfull design and UX purposes. 
+    -   The photographs in the photograph section, the social media links in the footer and the privacy policy link in the purchase section all have a hover over style for users to make clear they're clickable.
+    -   In the purchase section there are two dropdown menus for the users to easily choose the right option.
+    -   All buttons on the site have a hover over style aswell to make clear they are clickable.
 
 ## Future Features
 
@@ -62,12 +84,14 @@ to know me and my work even more.
 
 -   The possibility to pay on the site itself.
 
+-   A live instagram post in the contact section.
+
 ## Technologies Used
 
 ### Languages Used
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [HTML5:](https://en.wikipedia.org/wiki/HTML5) Used to structurize and design the layout and content of the website.
+-   [CSS3:](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) Used to style the website and create some of the responsiveness and interactive elements.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -95,7 +119,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-### Testing User Stories from User Experience (UX) Section
+### Testing User Stories
 
 -   #### First Time Visitor Goals
 
@@ -154,8 +178,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as different desktops and a varation of smartphones.
+-   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
+-   The website was viewed on a variety of devices;
+    * 
 -   A large amount of testing was done on responsiveness and functionality.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -195,13 +220,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/lonneke-dev/ms1
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/lonneke-dev/ms1
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -244,9 +269,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor for giving me feedback and support.
 
--   Tutor support at Code Institute for their helpful tips and tricks and keeping me motivated all the way through.
+-   Tutor support at [Code Institute](https://codeinstitute.net/) for their helpful tips and tricks and keeping me motivated all the way through.
 
--   The slack community for helping me out with problems. 
+-   The code institute [slack](https://slack.com/intl/en-nl/) community for helping me out with problems like finding the right bootstrap command and layout ideas.
 
 -   My parents for listening to me while I rambled on about fixing problems and trying to explain what I was actually doing to understand what I was doing myself.
 

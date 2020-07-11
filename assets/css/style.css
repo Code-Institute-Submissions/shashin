@@ -17,6 +17,10 @@ hr {
     visibility: hidden;
 }
 
+input {
+    padding: .375rem 1.75rem .375rem .75rem;
+}
+
 /*----------------------------------- Alert-bar */
 
 .alert {
@@ -37,6 +41,7 @@ header {
     font-size: 20px;
     background: rgba(199, 199, 245, 0.9);
     border-radius: .25rem;
+    height: 60px;
 }
 
 .navbar-nav {
@@ -77,8 +82,18 @@ header {
     padding-top: 2rem;
 }
 
+@media screen and (min-width: 990px) {
+    .about-me {
+        padding: 4rem 15px 1rem 15px;
+    }
+
+    .photo {
+        padding-top: 4rem;
+    }
+}
+
 .col {
-    padding: 50px 15px 40px 15px;
+    padding: 60px 15px 30px 15px;
 } 
 
 /* Hidden image on larger screens */
@@ -115,7 +130,7 @@ header {
 }
 
 .custom-select{
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .form {
@@ -123,7 +138,7 @@ header {
 }
 
 .form, input {
-    border-radius: .25rem;
+    border-radius: 2rem;
     width: 100%;
 }
 
@@ -132,8 +147,13 @@ header {
     padding-bottom: 0px;
 }
 
+.send {
+    padding: 30px 0 30px 0;
+}
+
 .button {
-    width: 60%;
+    font-size: 1rem;
+    width: 290px;
     height: 40px;
     border-radius: 2rem;
     background-color: rgb(199, 199, 245);
@@ -167,7 +187,9 @@ header {
 /*----------------------------------- Contact section */
 
 .message {
-    padding: 0;
+    padding: .375rem 1.75rem .375rem .75rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
 }
 
 .insta {
