@@ -29,6 +29,7 @@ input {
 
 .alert {
     margin-bottom: 0;
+    padding-right: 30px;
     background: rgb(199, 199, 245);
 }
 
@@ -77,11 +78,11 @@ header {
 }
 
 .about-me {
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .photo {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -90,7 +91,7 @@ header {
     }
 
     .photo {
-        padding-top: 4rem;
+        padding-top: 8rem;
     }
 }
 

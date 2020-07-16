@@ -4,7 +4,7 @@
 
 This project is an assignment of the Full stack development course I am following at CodeInstitute to show my skills with HTML5 and CSS3 so far. 
 
-<h4 align="left"><img src="assets/images/cherry-blossom.JPG" width="500px"></h4> 
+<h4 align="left"><img src="assets/images/screenshot.png"></h4> 
 
 Shashin is meant for people that are interested in photography and in this case mine specifically. They might have seen some of my work somewhere 
 else online and now want to have some of it for themselves. So by making this website I give the users the ability to get a print out for themselves and to get 
@@ -116,8 +116,20 @@ to know me and my work even more.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+    - The validation of the index page:
+<hr>
+    <img src="assets/images/w3c-index.png">
+<hr>
+    - The validation of the privacy page:
+<hr>
+    <img src="assets/images/w3c-privacy.png">
+<hr>
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    - The validation of the css file.
+<hr>
+    <img src="assets/images/w3c-css.png">
+    <img src="assets/images/w3c-css2.png">
 
 ### Testing User Stories
 
@@ -189,7 +201,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   Currently I'm not aware of any bugs.
+-   In Microsoft edge the vertical images show horizontally unless they are opened in a separate tab by clicking on them.
+
+-   Navbar collapsed didn't show the background correctly : By changing the height of the navbar back to normal it showed the background correctly again.
+-   On chrome when decreasing the screen size you could move the website horizontally : By getting rid of the live instagram post and making all margins and padding throughout the website the same the problem was fixed.
+-   The equipment image in the about section didn't align nicely with the bottom : by giving the image extra top padding on a large screen size the image was nicely aligned.
+-   Gaps in the about section on smaller screen sizes : I created a mediaquery to decide the padding on a bigger screensize so the smaller screensizes have minimum padding.
 
 ## Deployment
 
