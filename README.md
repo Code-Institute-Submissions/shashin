@@ -117,6 +117,7 @@ to know me and my work even more.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+    
     - The validation of the index page:
 <hr>
     <img src="assets/images/w3c-index.png">
@@ -126,6 +127,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     <img src="assets/images/w3c-privacy.png">
 <hr>
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    
     - The validation of the css file.
 <hr>
     <img src="assets/images/w3c-css.png">
@@ -190,18 +192,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
--   The website was viewed on a variety of devices;
-                    responsiveness | 
-        Ipad pro:   good
-        Ipad:       good
-        
+-   The Website was tested on multiple browsers and a variety of devices;
+    <img src="assets/images/functionality.png">
 -   A large amount of testing was done on responsiveness and functionality.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   In Microsoft edge the vertical images show horizontally unless they are opened in a separate tab by clicking on them.
+-   In some browsers the vertical images show horizontally unless they are opened in a separate tab by clicking on them.
 
 -   Navbar collapsed didn't show the background correctly : By changing the height of the navbar back to normal it showed the background correctly again.
 -   On chrome when decreasing the screen size you could move the website horizontally : By getting rid of the live instagram post and making all margins and padding throughout the website the same the problem was fixed.
