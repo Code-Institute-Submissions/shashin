@@ -1,10 +1,10 @@
-<h1 align="center">MS1 (Shashin)</h1>
+<h1 align="center">Shashin (ms1)</h1>
 
 [Go to the project here.](https://lonneke-dev.github.io/ms1/)
 
 This project is an assignment of the Full stack development course I am following at CodeInstitute to show my skills with HTML5 and CSS3 so far. 
 
-<h4 align="left"><img src="assets/images/screenshot.png"></h4> 
+<h4><img src="assets/images/screenshot.png"></h4> 
 
 Shashin is meant for people that are interested in photography and in this case mine specifically. They might have seen some of my work somewhere 
 else online and now want to have some of it for themselves. So by making this website I give the users the ability to get a print out for themselves and to get 
